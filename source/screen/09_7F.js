@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerImage: {
+    marginTop: -330,
     width: '100%',
     height: undefined,
     aspectRatio: 1, // 이미지의 비율을 유지

@@ -117,22 +117,22 @@ const Building09Main = ({navigation}) => {
         <ScrollView
           style={styles.outerContainer}
           contentContainerStyle={styles.innerContainer}>
-          <FloorButton floor="1F" details="편의점" navigation={navigation} />
+          <FloorButton floor="1F" details="학과사무실(기계공학과),강의실,편의점" navigation={navigation} />
           <FloorButton
             floor="2F"
-            details="학과사무실(컴퓨터공학과)"
+            details="학과사무실(컴퓨터공학과),강의실"
             navigation={navigation}
           />
-          <FloorButton floor="3F" details="3" navigation={navigation} />
-          <FloorButton floor="4F" details="4" navigation={navigation} />
-          <FloorButton floor="5F" details="5" navigation={navigation} />
-          <FloorButton floor="6F" details="6" navigation={navigation} />
-          <FloorButton floor="7F" details="7" navigation={navigation} />
-          <FloorButton floor="8F" details="8" navigation={navigation} />
-          <FloorButton floor="9F" details="9" navigation={navigation} />
-          <FloorButton floor="10F" details="10" navigation={navigation} />
-          <FloorButton floor="11F" details="11" navigation={navigation} />
-          <FloorButton floor="12F" details="12" navigation={navigation} />
+          <FloorButton floor="3F" details="학과사무실(전기전자과),강의실" navigation={navigation} />
+          <FloorButton floor="4F" details="학과사무실(산업경영공학과,정보통신공학과),강의실" navigation={navigation} />
+          <FloorButton floor="5F" details="학과사무실(건축공학과),강의실" navigation={navigation} />
+          <FloorButton floor="6F" details="교수연구실,학과사무실(멀티미디어공학과)," navigation={navigation} />
+          <FloorButton floor="7F" details="교수연구실,전공실험실(컴퓨터공학과)" navigation={navigation} />
+          <FloorButton floor="8F" details="교수연구실,전공실험실(전기전자과)" navigation={navigation} />
+          <FloorButton floor="9F" details="교수연구실,전공실험실(정보통신공학과)" navigation={navigation} />
+          <FloorButton floor="10F" details="교수연구실,전공실험실(토목환경공학과)" navigation={navigation} />
+          <FloorButton floor="11F" details="교수연구실,전공실험실(건축공학과)" navigation={navigation} />
+          <FloorButton floor="12F" details="신화협력홀" navigation={navigation} />
         </ScrollView>
         <Bottombar />
       </SafeAreaView>
@@ -207,4 +207,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Building09;
+export default Building09
