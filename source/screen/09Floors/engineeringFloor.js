@@ -1,6 +1,6 @@
 const floors = {
   '1F': {
-    image: require('../image/공대1층.png'),
+    image: require('../../image/공대1층.png'),
     rooms: {
       '090101': { x: 15, y: 29 },
       '090102': { x: 15, y: 22 },
@@ -21,7 +21,7 @@ const floors = {
     },
   },
   '2F': {
-    image: require('../image/공대2층.png'),
+    image: require('../../image/공대2층.png'),
     rooms: {
       '090201': { x: 4, y: 30.5 },
       '090202': { x: 6, y: 22 },
@@ -45,7 +45,7 @@ const floors = {
     },
   },
   '3F': {
-    image: require('../image/공대3층.png'),
+    image: require('../../image/공대3층.png'),
     rooms: {
       '090301': { x: 4, y: 29 },
       '090302': { x: 17, y: 29 },
@@ -74,7 +74,7 @@ const floors = {
     },
   },
   '4F': {
-    image: require('../image/공대4층.png'),
+    image: require('../../image/공대4층.png'),
     rooms: {
       '090401': { x: 4, y: 30 },
       '090402': { x: 17, y: 30 },
@@ -104,7 +104,7 @@ const floors = {
     },
   },
   '5F': {
-    image: require('../image/공대5층.png'),
+    image: require('../../image/공대5층.png'),
     rooms: {
       '090501': { x: 4, y: 30 },
       '090502': { x: 15, y: 30 },
@@ -136,7 +136,7 @@ const floors = {
     },
   },
   '6F': {
-    image: require('../image/공대6층.png'),
+    image: require('../../image/공대6층.png'),
     rooms: {
       '090601': { x: 4, y: 35 },
       '090601-A': { x: 9.5, y: 35 },
@@ -163,7 +163,7 @@ const floors = {
     },
   },
   '7F': {
-    image: require('../image/공대7층.png'),
+    image: require('../../image/공대7층.png'),
     rooms: {
       '090716': { x: 26.9, y: 7.5 },
       '090715': { x: 34.9, y: 7.5 },
@@ -183,7 +183,7 @@ const floors = {
     },
   },
   '8F': {
-    image: require('../image/공대8층.png'),
+    image: require('../../image/공대8층.png'),
     rooms: {
       '090816': { x: 17, y: 9.5 },
       '090815': { x: 29.9, y: 9.5 },
@@ -202,7 +202,7 @@ const floors = {
     },
   },
   '9F': {
-    image: require('../image/공대9층.png'),
+    image: require('../../image/공대9층.png'),
     rooms: {
       '090915': { x: 21, y: 11 },
       '090914': { x: 33, y: 11 },
@@ -220,7 +220,7 @@ const floors = {
     },
   },
   '10F': {
-    image: require('../image/공대10층.png'),
+    image: require('../../image/공대10층.png'),
     rooms: {
       '091015': { x: 21, y: 11 },
       '091014': { x: 33, y: 11 },
@@ -238,7 +238,7 @@ const floors = {
     },
   },
   '11F': {
-    image: require('../image/공대11층.png'),
+    image: require('../../image/공대11층.png'),
     rooms: {
       '091015': { x: 21, y: 10 },
       '091014': { x: 77, y: 10 },
@@ -256,7 +256,7 @@ const floors = {
     },
   },
   '12F': {
-    image: require('../image/공대12층.png'),
+    image: require('../../image/공대12층.png'),
     rooms: {
       '091201': { x: 50, y: 26.5 },
     },

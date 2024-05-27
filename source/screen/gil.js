@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
 import { useRoute } from '@react-navigation/native';
 import Svg, { Line, Circle } from 'react-native-svg';
-import floors from './engineeringFloor';  // engineeringFloor.js 파일 참조
+import floors from './09Floors/engineeringFloor'; // engineeringFloor.js 파일 참조
 
 const Gil = () => {
   const route = useRoute();

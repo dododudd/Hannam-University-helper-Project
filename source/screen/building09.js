@@ -12,18 +12,18 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 
 import Bottombar from '../component/bottomBar'; // 하단 버튼 바
-import FirstFloorScreen from './1F';
-import SecondFloorScreen from './2F';
-import ThirdFloorScreen from './09_3F';
-import FourthFloorScreen from './09_4F';
-import FifthFloorScreen from './09_5F';
-import SixthFloorScreen from './09_6F';
-import SeventhFloorScreen from './09_7F';
-import EighthFloorScreen from './09_8F';
-import NinthFloorScreen from './09_9F';
-import TenthFloorScreen from './09_10F';
-import ElevenFloorScreen from './09_11F';
-import TwelvethFloorScreen from './09_12F';
+import FirstFloorScreen from './09Floors/1F';
+import SecondFloorScreen from './09Floors/2F';
+import ThirdFloorScreen from './09Floors/09_3F';
+import FourthFloorScreen from './09Floors/09_4F';
+import FifthFloorScreen from './09Floors/09_5F';
+import SixthFloorScreen from './09Floors/09_6F';
+import SeventhFloorScreen from './09Floors/09_7F';
+import EighthFloorScreen from './09Floors/09_8F';
+import NinthFloorScreen from './09Floors/09_9F';
+import TenthFloorScreen from './09Floors/09_10F';
+import ElevenFloorScreen from './09Floors/09_11F';
+import TwelvethFloorScreen from './09Floors/09_12F';
 import GilScreen from './gil'; // Import the Gil screen
 
 const windowWidth = Dimensions.get('window').width;

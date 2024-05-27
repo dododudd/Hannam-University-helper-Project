@@ -8,7 +8,7 @@ import {
   Text,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import floors from './engineeringFloor'; 
+import floors from './engineeringFloor'
 
 const SecondFloorScreen = () => {
   const navigation = useNavigation();
